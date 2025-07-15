@@ -38,11 +38,13 @@ const Terminal = () => {
   }, []);
 
   useEffect(() => {
-    // Auto-scroll to bottom when history updates
+  setTimeout(() => {
     if (terminalRef.current) {
       terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
     }
-  }, [history]);
+  }, 50); // Small delay to ensure DOM updated
+}, [history]);
+
 
   useEffect(() => {
     // Keep input focused
@@ -176,6 +178,7 @@ const Terminal = () => {
           
           <div className="terminal-line current-line">
             <span className="prompt">user@arccorp:~$ </span>
+            <span className="cursor blinking">█</span>
             <input
               ref={inputRef}
               type="text"
@@ -186,7 +189,7 @@ const Terminal = () => {
               autoComplete="off"
               spellCheck="false"
             />
-            <span className="cursor blinking">█</span>
+            
           </div>
         </div>
       </div>
