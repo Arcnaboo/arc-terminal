@@ -37,13 +37,22 @@ const Terminal = () => {
     }
   }, []);
 
-  useEffect(() => {
-  setTimeout(() => {
+useEffect(() => {
+  const scrollToBottom = () => {
     if (terminalRef.current) {
-      terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+      terminalRef.current.scrollTo({
+        top: terminalRef.current.scrollHeight,
+        behavior: "smooth" // or "auto" if you want instant jump
+      });
     }
-  }, 50); // Small delay to ensure DOM updated
+  };
+
+  // Short delay ensures DOM renders
+  const timeout = setTimeout(scrollToBottom, 30);
+
+  return () => clearTimeout(timeout);
 }, [history]);
+
 
 
   useEffect(() => {
