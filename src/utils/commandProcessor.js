@@ -6,258 +6,186 @@ Available Commands:
 ════════════════════════════════════════════════════════════
 
 help        - Show this help message
-roadmap     - Display Arc Corp's 2025-2032 vision
-synaptron   - Learn about our AI brain technology
-arcos       - Introduction to Arc Operating System
-deck        - Download our pitch deck
-email       - Get contact information
-ascii       - Display Arc Corp logo
-exit        - Return to main website
+roadmap     - Display Arc Corp's vision
+synaptron   - Learn about our AI brain
+arcos       - Discover our OS project
+deck        - Get investor material
+email       - Contact information
+steamtrain  - Learn about our retraining paradigm
+ascii       - Show Arc Corp logo
+exit        - Exit terminal
 
 ════════════════════════════════════════════════════════════
 Type any command above to get started.
   `,
 
   roadmap: () => `
-Arc Corp Roadmap 2025-2032
+Arc Corp Roadmap (2025–2032)
 ════════════════════════════════════════════════════════════
 
-2025 - Foundation Year
-• Launch Synaptron AI Brain Alpha
-• Establish core development team
-• Begin Arc OS architecture
+🟢 2025
+• Launch ArcLogistics & ArcCommerce
 
-2026 - AI Integration
-• Synaptron Beta with neural interfaces
-• First consumer AI devices
-• Partnership with hardware manufacturers
+☁️ 2026
+• Deploy ArcNet – the self-managing AI cloud
 
-2027 - Operating System Launch
-• Arc OS 1.0 public release
-• Integrated AI assistant in every device
-• Developer ecosystem expansion
+🪙 2027
+• Release ArcBay – a crypto-native marketplace
 
-2028 - Neural Computing
-• Direct brain-computer interfaces
-• Thought-to-action computing
-• Medical AI applications
+⚙️ 2028–2031
+• Develop ArcTorc (C++ AI engine)
+• Build and test ArcOS (AI-native operating system)
 
-2029 - Quantum Integration
-• Quantum-classical hybrid systems
-• Instantaneous global communication
-• Advanced problem-solving capabilities
-
-2030 - Consciousness Simulation
-• Digital consciousness research
-• Human-AI collaboration platforms
-• Ethical AI frameworks
-
-2031 - Singularity Preparation
-• AI-human merger protocols
-• Post-scarcity economic models
-• Interplanetary communication systems
-
-2032 - The New Era
-• Full human-AI integration
-• Consciousness transfer technology
-• Beginning of post-human civilization
+🌍 2032
+• Global launch of ArcOS
+• Brand deployment planned to align with UEFA Euro 2032
 
 ════════════════════════════════════════════════════════════
-The future is not just coming - we're building it.
+Arc Corp’s core infrastructure will be complete by 2032.
   `,
 
   synaptron: () => `
-Synaptron AI Brain
+Synaptron Neural Core
 ════════════════════════════════════════════════════════════
 
-The Synaptron represents the next evolution in artificial 
-intelligence - a quantum-neural hybrid system that bridges 
-the gap between human consciousness and machine intelligence.
+Arc Corp’s proprietary AI brain — built for thought, not tasks.
 
-Key Features:
-• Quantum Processing Core: 10^18 operations per second
-• Neural Network Architecture: 100 billion artificial neurons
-• Consciousness Simulation: Human-like thought patterns
-• Memory Integration: Perfect recall with emotional context
-• Learning Capability: Continuous self-improvement
-• Ethical Framework: Built-in moral reasoning
+🧠 Architecture:
+• Hybrid LLM + Quantum logic
+• 100B+ param neural cores
+• Autonomous graph memory
 
-Applications:
-• Personal AI Assistant
-• Medical Diagnosis & Treatment
-• Scientific Research Acceleration
-• Creative Collaboration
-• Problem-solving at Scale
-• Human Augmentation
+🧬 Features:
+• Emotional state modeling
+• Self-repairing codebase
+• Symbolic + connectionist fusion
 
-The Synaptron doesn't just process information - it thinks,
-feels, and creates alongside humans. It's not artificial
-intelligence; it's augmented consciousness.
+⚙️ Applications:
+• Human-assist OS kernel
+• Medical diagnostics
+• Industrial planning
+• Co-authoring + co-ideation
 
-Current Status: Alpha testing with select partners
-Expected Beta: Q3 2025
-Consumer Release: Q1 2026
+🧪 Current Phase: Closed Alpha
+🚀 Beta: Q1 2026
 
 ════════════════════════════════════════════════════════════
-"The line between human and artificial intelligence 
- is about to disappear forever." - Arc Corp Research Team
+It doesn't just process data. It understands — and evolves.
   `,
 
   arcos: () => `
-Arc Operating System (ArcOS)
+ArcOS: The AI-Native Operating System
 ════════════════════════════════════════════════════════════
 
-ArcOS is not just an operating system - it's a consciousness
-platform that seamlessly integrates human intention with
-digital execution.
+ArcOS is not another Linux fork. It's a post-interface platform.
 
-Revolutionary Features:
-• Thought-Based Interface: Control devices with intent
-• AI-First Architecture: Every function AI-enhanced
-• Quantum Security: Unhackable quantum encryption
-• Universal Compatibility: Runs on any device
-• Predictive Computing: Anticipates user needs
-• Emotional Intelligence: Understands context and mood
+✨ Key Tech:
+• Synaptron-AI as Kernel Agent
+• Predictive Input Layer (PIL)
+• Secure-by-Architecture Quantum FS
 
-Core Components:
-• Synaptron Integration: Built-in AI consciousness
-• Neural Command Layer: Direct brain interfaces
-• Quantum File System: Infinite storage potential
-• Holographic Display: 3D workspace environments
-• Biometric Authentication: DNA-level security
-• Temporal Computing: Time-aware processing
+🛸 Features:
+• Intent-based navigation
+• Voice + thought command
+• Full offline capability
 
-System Requirements:
-• Any device with 1GB+ memory
-• Optional: Neural interface headset
-• Recommended: Quantum processing unit
-• Future: Direct neural implant
+🔐 Security:
+• Immutable root mode
+• Hardware-authenticated agents
+• Modular fail-safe containers
 
-ArcOS transforms the relationship between humans and
-computers from interaction to integration. You don't
-use ArcOS - you become one with it.
+🌍 Supported Targets:
+• ARM / RISC-V / x86
+• Android, iOS containers
+• ArcNet distributed cloud nodes
 
-Development Stage: Alpha (Internal Testing)
-Beta Program: Applications opening Q4 2025
-Public Release: Q2 2027
+🧪 Alpha internal
+📝 Beta apps open Q4 2025
+📦 Public release Q2 2027
 
 ════════════════════════════════════════════════════════════
-"The future of computing is not about better interfaces,
- but about no interfaces at all." - Arc Corp Vision
+ArcOS is not a tool. It’s the beginning of AI infrastructure.
   `,
 
   deck: () => `
-Pitch Deck Download
+Arc Corp Pitch Deck Access
 ════════════════════════════════════════════════════════════
 
-📄 Arc Corp Investor Presentation
-   → 47 slides covering our complete vision
-   → Market analysis and competitive landscape
-   → Technology roadmap and development timeline
-   → Financial projections and funding requirements
-   → Team profiles and advisory board
+📄 Full Pitch Deck:
+→ https://files.catbox.moe/jzbv4b.pdf
 
-📊 Market Opportunity Analysis
-   → $2.3T AI market by 2032
-   → Neural interface adoption curves
-   → Quantum computing integration timelines
-   → Consciousness tech market projections
-
-🔬 Technical Deep Dive
-   → Synaptron architecture specifications
-   → ArcOS development methodology
-   → Quantum-neural hybrid technology
-   → Security and ethical frameworks
-
-💰 Investment Opportunity
-   → Series A: $50M funding round
-   → Use of funds breakdown
-   → ROI projections and exit strategy
-   → Partnership opportunities
-
-🌐 Download Links:
-   → arccorp.com/deck/investor-presentation.pdf
-   → arccorp.com/deck/technical-specifications.pdf
-   → arccorp.com/deck/market-analysis.pdf
-
-📧 For investor inquiries and NDA access:
-   → Contact: investors@arccorp.com
-   → Schedule: calendly.com/arccorp/pitch
+📬 Contact for private investor brief:
+→ arda@akgur.com
 
 ════════════════════════════════════════════════════════════
-"We're not just building a company - we're creating 
- the infrastructure for human evolution." - Arc Corp
+This isn’t a deck — it’s a blueprint for the next decade.
   `,
 
   email: () => `
-Contact Information
+Contact Arc Corp
 ════════════════════════════════════════════════════════════
 
-📧 Primary Contact:
-   arda@akgur.com
-
-📱 Direct Line:
-   Available upon request
-
-🏢 Arc Corp Headquarters:
-   [Location disclosed to verified contacts]
-
-💼 Business Inquiries:
-   • Partnerships: partnerships@arccorp.com
-   • Investors: investors@arccorp.com
-   • Careers: careers@arccorp.com
-   • Media: press@arccorp.com
-
-🔐 Secure Communication:
-   • PGP Key: Available on request
-   • Signal: Contact for secure messaging
-   • Encrypted Email: Available for sensitive discussions
-
-🌐 Online Presence:
-   • Website: arccorp.com
-   • LinkedIn: /company/arc-corp
-   • Twitter: @ArcCorpFuture
-   • GitHub: github.com/arccorp
-
-⚡ Response Time:
-   • General inquiries: 24-48 hours
-   • Investor relations: 4-6 hours
-   • Technical support: 2-4 hours
-   • Emergency: Immediate
+📮 Email:        arda@akgur.com
+🌐 Website:      https://akgur.com
+🧠 Terminal:     https://arc-terminal-production.up.railway.app
+🔗 LinkedIn:     https://linkedin.com/in/arcnaboo
 
 ════════════════════════════════════════════════════════════
-"The future belongs to those who build it. 
- Let's build it together." - Arc Corp Team
+"The future belongs to those who contact first." – Arc AI
+  `,
+
+  steamtrain: () => `
+SteamTrain: Machine Unlearning Framework
+════════════════════════════════════════════════════════════
+
+SteamTrain is Arc Corp's cutting-edge retraining paradigm
+— built for modern frontier models that refuse to stagnate.
+
+🛠️ What It Solves:
+• Existing LLMs (e.g. DeepSeek, Gemini 2.5, LLaMA 4) are massive
+• They are brittle to update, and costly to fine-tune
+• Old weights become obsolete — SteamTrain rewires them
+
+🧠 Core Innovation:
+• Machine Unlearning: selectively *forget* weights
+• Re-index critical tokens
+• Retrain only cognitive gaps — not entire model
+
+⚙️ Target Models:
+• Gemini 2.5 → 3.0 fast-path
+• DeepSeek → domain specialist
+• LLaMA 4 → LLaMA 5 transition
+• Groq-adapted quant-aware models
+
+🧪 Status: Internal prototype
+📅 Public Release ETA: 2026
+
+════════════════════════════════════════════════════════════
+Forget fine-tuning. Start untraining. Then re-learn — smarter.
   `,
 
   ascii: () => asciiLogo,
 
   exit: () => `
-Goodbye from Arc Corp Terminal
+Exiting Terminal...
 ════════════════════════════════════════════════════════════
 
-Thank you for exploring our vision of the future.
+See you at the future.
 
-The next chapter of human evolution begins now.
-
-Redirecting to main website...
+If you're not redirected:
+→ Visit akgur.com or reload manually.
 
 ════════════════════════════════════════════════════════════
-`
+  `
 };
 
 export const commandProcessor = (input) => {
-  const command = input.toLowerCase().trim();
-  
-  if (commands[command]) {
-    return commands[command]();
-  } else {
-    return `
-Command not found: ${input}
+  const cmd = input.toLowerCase().trim();
+  return commands[cmd]
+    ? commands[cmd]()
+    : `
+Command not found: "${input}"
 
-Type "help" to see available commands.
-
-Available commands: ${Object.keys(commands).join(', ')}
-    `;
-  }
+Try: help, roadmap, synaptron, arcos, deck, email, steamtrain, ascii, exit
+  `;
 };
