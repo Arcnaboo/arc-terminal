@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  background: #0a0a0a;
+  color: #00ff00;
+  overflow: hidden;
+}
+
+.terminal-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+  padding: 20px;
+}
+
+.terminal-screen {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  max-height: 800px;
+  background: #000;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.3),
+    inset 0 0 20px rgba(0, 255, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.terminal-screen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(transparent 98%, rgba(0, 255, 0, 0.03) 100%),
+    linear-gradient(90deg, transparent 98%, rgba(0, 255, 0, 0.03) 100%);
+  background-size: 100% 2px, 2px 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.terminal-header {
+  background: #1a1a1a;
+  padding: 8px 16px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.control.close {
+  background: #ff5f56;
+}
+
+.control.minimize {
+  background: #ffbd2e;
+}
+
+.control.maximize {
+  background: #27ca3f;
+}
+
+.terminal-title {
+  color: #888;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.terminal-body {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  z-index: 2;
+}
+
+.terminal-line {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: flex-start;
+  word-wrap: break-word;
+}
+
+.current-line {
+  align-items: center;
+}
+
+.prompt {
+  color: #00ff00;
+  font-weight: 600;
+  min-width: fit-content;
+  margin-right: 8px;
+}
+
+.command {
+  color: #ffffff;
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  flex: 1;
+  caret-color: transparent;
+}
+
+.response-content,
+.system-content {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.response-content {
+  color: #00ff00;
+}
+
+.system-content {
+  color: #00cccc;
+}
+
+.command-line {
+  color: #ffffff;
+}
+
+.response-line {
+  margin-left: 0;
+  margin-bottom: 12px;
+}
+
+.system-line {
+  margin-bottom: 12px;
+}
+
+.cursor {
+  color: #00ff00;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #000;
+}
+
+.loading-text {
+  color: #00ff00;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Scrollbar styling */
+.terminal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-body::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .terminal-container {
+    padding: 10px;
+  }
+  
+  .terminal-body {
+    padding: 15px;
+    font-size: 12px;
+  }
+  
+  .prompt {
+    font-size: 12px;
+  }
+}
+
+/* Link styling in terminal */
+.terminal-link {
+  color: #00ccff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terminal-link:hover {
+  color: #00ffff;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+/* ASCII art styling */
+.ascii-art {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #00ff00;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
